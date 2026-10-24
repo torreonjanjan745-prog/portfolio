@@ -156,16 +156,29 @@
             <div class="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-white font-black text-xl">V</div>
             <h3 class="text-lg font-black mt-4 text-white group-hover:text-black">Vue.js</h3>
             <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Progressive JS Framework</p>
+           
+<div class="group mt-4 h-2 w-full rounded-full bg-zinc-100 transition-colors duration-300 hover:bg-zinc-800">
+  <div class="h-full w-[90%] cursor-pointer rounded-full bg-orange-800 transition-all duration-300 hover:shadow-[0_20px_40px_rgba(255,255,255,0.15)]"></div>
+</div>
+
           </div>
           <div class="group bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:bg-white transition-all duration-300 cursor-pointer">
             <div class="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white font-black">R</div>
             <h3 class="text-lg font-black mt-4 text-white group-hover:text-black">React.js</h3>
             <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Component-based UI</p>
+              
+<div class="group mt-4 h-2 w-full rounded-full bg-zinc-100 transition-colors duration-300 hover:bg-zinc-800">
+  <div class="h-full w-[90%] cursor-pointer rounded-full bg-red-500 transition-all duration-300 hover:shadow-[0_20px_40px_rgba(255,255,255,0.15)]"></div>
+</div>
+
           </div>
           <div class="group bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:bg-white transition-all duration-300 cursor-pointer">
             <div class="w-12 h-12 bg-black rounded-xl flex items-center justify-center text-white font-black border border-white/20">N</div>
             <h3 class="text-lg font-black mt-4 text-white group-hover:text-black">Node.js</h3>
             <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Server-side JS</p>
+            <div class="group mt-4 h-2 rounded-full bg-zinc-100 transition-colors duartion-300 hover:bg-zinc-800">
+              <div class="h-full w-[90%] cursor-pointer rounded-full bg-green-800 transition-all duration-300 hover:shadow-[0_20px_40px_rgba(255,255,255,0.5)]"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -187,7 +200,11 @@
           <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
             <div class="flex items-center gap-3 mb-5">
               <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">1</div>
-              <div class="w-11 h-11 rounded-xl bg-white flex items-center justify-center">💡</div>
+              <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/html1.png"></div>
+              <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/css.png"></div>
+              <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/tailwind1.png"></div>
+            
+
             </div>
             <h3 class="text-white font-bold text-xl">January 2022- Self Thought</h3>
             <p class="text-zinc-400 font-bold mt-2 text-sm">Learning Front End</p>
