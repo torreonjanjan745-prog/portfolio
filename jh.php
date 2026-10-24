@@ -141,7 +141,7 @@
         </div>
       </div>
 
-      <!-- FRAMEWORKS - FIXED NA CICI! NASA LABAS NA NG BACK END GRID! -->
+      <!-- FRAMEWORKS -->
       <div>
         <div class="flex items-center gap-3 mb-8">
           <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
@@ -186,7 +186,7 @@
     </div>
   </section>
 
-  <!-- EXPERIENCE - MAY MALAKING BOX NA PAREHAS SA SKILLS -->
+  <!-- EXPERIENCE -->
   <section id="Experience" class="w-full min-h-screen bg-[#0A0E27] p-6 md:px-20 py-20 flex flex-col items-center rounded-lg">
     <div class="mb-12 text-center">
       <h1 class="text-3xl md:text-4xl uppercase font-black text-white tracking-tighter">Experience Through Learning</h1>
