@@ -149,7 +149,8 @@
           </div>
           <h2 class="text-2xl font-black uppercase tracking-widest text-white">Frameworks</h2>
           <div class="flex-1 h-[1px] bg-white/10 ml-4"></div>
-        </div>
+        </div> 
+</div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="group bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:bg-white transition-all duration-300 cursor-pointer">
             <img src="asset/vue.png" class="w-12 h-12 object-contain" onerror="this.style.display='none'">
@@ -211,9 +212,9 @@
             <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
             <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Focused on self-learning the fundamentals of front-end, understanding Tailwind and building my first responsive layout.</p>
             <div class="flex gap-2 mt-auto pt-6">
-              <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">HTML</span>
-              <span class="text-[10px] bg-green-500 text-black px-3 py-1.5 rounded-full font-bold">CSS</span>
-              <span class="text-[10px] bg-zinc-800 text-white px-3 py-1.5 rounded-full font-bold border border-zinc-700">Tailwind</span>
+              <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">HTML</span>
+              <span class="text-[10px] bg-green-500 text-black px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">CSS</span>
+              <span class="text-[10px] bg-zinc-800 text-white px-3 py-1.5 rounded-full font-bold border border-zinc-700hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">Tailwind</span>
             </div>
           </div>
         </div>
@@ -222,16 +223,17 @@
           <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
             <div class="flex items-center gap-3 mb-5">
               <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">2</div>
-              <div class="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center text-white">🗄️</div>
+              <div class="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center text-white"><img src="asset/vues.png"></div>
+
             </div>
             <h3 class="text-white font-bold text-xl">May 2025- Self Thought</h3>
             <p class="text-zinc-400 mt-2 text-sm font-bold">Learning Back End</p>
             <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
             <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Started learning back-end, how server works, API routes, and connecting front-end to back-end.</p>
             <div class="flex gap-2 mt-auto pt-6">
-              <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">Maria DB</span>
-              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700">mySQL</span>
-              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700">PHP</span>
+              <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">Maria DB</span>
+              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">mySQL</span>
+              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">PHP</span>
             </div>
           </div>
         </div>
@@ -247,9 +249,9 @@
             <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
             <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Combined front-end and back-end to build a complete project and deploy it.</p>
             <div class="flex gap-2 mt-auto pt-6">
-              <span class="text-[10px] bg-blue-600 text-white px-3 py-1.5 rounded-full font-bold">Vue.js</span>
-              <span class="text-[10px] bg-blue-600 text-white px-3 py-1.5 rounded-full font-bold">Node.js</span>
-              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700">React.js</span>
+              <span class="text-[10px] bg-blue-600 text-white px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">Vue.js</span>
+              <span class="text-[10px] bg-blue-600 text-white px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">Node.js</span>
+              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">React.js</span>
             </div>
           </div>
         </div>
