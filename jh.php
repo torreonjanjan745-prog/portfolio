@@ -223,17 +223,25 @@
           <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
             <div class="flex items-center gap-3 mb-5">
               <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">2</div>
-              <div class="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center text-white"><img src="asset/vues.png"></div>
-
+              <div class="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center text-white"><img src="asset/JS.png"></div>
+              <div class="w-11 h-11 rounded-full bg-white  flex items-center justify-center text-white"><img src="asset/maria1.png"></div>
+              <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center text-white"><img src="asset/php1.png"></div>
             </div>
             <h3 class="text-white font-bold text-xl">May 2025- Self Thought</h3>
             <p class="text-zinc-400 mt-2 text-sm font-bold">Learning Back End</p>
             <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
             <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Started learning back-end, how server works, API routes, and connecting front-end to back-end.</p>
             <div class="flex gap-2 mt-auto pt-6">
-              <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">Maria DB</span>
-              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">mySQL</span>
-              <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">PHP</span>
+            <a href="https://mariadb.com" target="_blank">
+  <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold hover:bg-gray-200 hover:scale-105 cursor-pointer transition-all duration-300">
+    MariaDB
+  </span>
+</a>
+               <a href="https:// www.w3schools.com/sql/" target="_blank ">    
+               <span class="text-[10px] bg-zinc-800 text-zlassinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">mySQL</span>
+               </a>
+               <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">PHP</span>
+               </a>
             </div>
           </div>
         </div>
