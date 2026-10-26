@@ -135,7 +135,7 @@
           <div class="group bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:bg-white hover:shadow-[0_20px_40px_rgba(255,255,255,0.15)] transition-all duration-300 cursor-pointer">
             <img src="asset/php1.png" class="w-12 h-12 object-contain">
             <h3 class="text-lg font-black mt-4 text-white group-hover:text-black">PHP</h3>
-            <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Server logic & DB connection.</p>
+            <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Server logic & DB connectionsssddzz.</p>
             <div class="mt-4 w-full h-2 bg-zinc-100 rounded-full group-hover:bg-zinc-800"><div class="h-full w-[90%] bg-blue-500 rounded-full"></div></div>
           </div>
         </div>
