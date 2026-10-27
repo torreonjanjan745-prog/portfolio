@@ -1,7 +1,17 @@
+const Experience = document.getElementById('Experience');
+const reveals = document.querySelectorAll('.reveals');
 
+const observers = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.remove('opacity-0', 'translate-y-12');
+      entry.target.classList.add('opacity-100', 'translate-y-0');
+      observer.unobserve(entry.target);
+    }
+  });
+}, {threshold: 0.15 });
 
-
-
+reveals.forEach(r => observers.observe(r));
 
 
 

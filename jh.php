@@ -136,7 +136,7 @@
           <div class="group bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:bg-white hover:shadow-[0_20px_40px_rgba(255,255,255,0.15)] transition-all duration-300 cursor-pointer">
             <img src="asset/php1.png" class="w-12 h-12 object-contain">
             <h3 class="text-lg font-black mt-4 text-white group-hover:text-black">PHP</h3>
-            <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Server logic & DB connectionsssddzz.</p>
+            <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Server logic & DB connection.</p>
             <div class="mt-4 w-full h-2 bg-zinc-100 rounded-full group-hover:bg-zinc-800"><div class="h-full w-[90%] bg-blue-500 rounded-full"></div></div>
           </div>
         </div>
@@ -189,57 +189,115 @@
   </section>
 
   <!-- EXPERIENCE -->
-  <section id="Experience" class=" reveals opacity-0 translate-y-12 transition-all duration-700 ease-out w-full min-h-screen bg-[#0A0E27] p-6 md:px-20 py-20 flex flex-col items-center rounded-lg">
-    <div class="mb-12 text-center">
-      <h1 class="text-3xl md:text-4xl uppercase font-black text-white tracking-tighter">Experience Through Learning</h1>
-      <p class="text-2xl font-bold text-center mt-5 text-green-500">Making Website Daily</p>
-      <div class="mt-4 h-1 w-20 bg-green-500 rounded-full mx-auto"></div>
-    </div>
-    <div class=" hidden w-full max-w-6xl bg-[#101827] border border-zinc-800 rounded-[32px] p-8 md:p-10 shadow-2xl">
-      <div class="flex flex-row flex-wrap gap-10 justify-center items-stretch">
-        <div class="relative w-80 min-h-[380px] group">
-          <div class="absolute -bottom-3 -right-3 w-full h-full bg-blue-600 rounded-2xl rotate-3 group-hover:rotate-6 transition-all duration-300 z-0"></div>
-          <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
-            <div class="flex items-center gap-3 mb-5">
-              <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">1</div>
-              <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/html1.png"></div>
-              <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/css.png"></div>
-              <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/tailwind1.png"></div>
-            
+  <section id="Experience" class="w-full min-h-screen bg-[#0A0E27] p-6 md:px-20 py-20 flex flex-col items-center rounded-lg">
+  
+  <!-- HEADER - may reveal -->
+  <div class="reveals opacity-0 translate-y-12 transition-all duration-700 mb-12 text-center">
+    <h1 class="text-3xl md:text-4xl uppercase font-black text-white tracking-tighter">Experience Through Learning</h1>
+    <p class="text-2xl font-bold text-center mt-5 text-green-500">Making Website Daily</p>
+    <div class="mt-4 h-1 w-20 bg-green-500 rounded-full mx-auto"></div>
+  </div>
 
-            </div>
-            <h3 class="text-white font-bold text-xl">January 2022- Self Thought</h3>
-            <p class="text-zinc-400 font-bold mt-2 text-sm">Learning Front End</p>
-            <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
-            <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Focused on self-learning the fundamentals of front-end, understanding Tailwind and building my first responsive layout.</p>
-            <div class="flex gap-2 mt-auto pt-6">
-              <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">HTML</span>
-              <span class="text-[10px] bg-green-500 text-black px-3 py-1.5 rounded-full font-bold hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">CSS</span>
-              <span class="text-[10px] bg-zinc-800 text-white px-3 py-1.5 rounded-full font-bold border border-zinc-700hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">Tailwind</span>
-            </div>
+  <!-- PARENT CONTAINER - WALA NG REVEALS DITO -->
+  <div class="w-full max-w-6xl bg-[#101827] border border-zinc-800 rounded-[32px] p-8 md:p-10 shadow-2xl">
+    <div class="flex flex-row flex-wrap gap-10 justify-center items-stretch">
+
+      <!-- CARD 1 -->
+      <div class="reveals opacity-0 translate-y-12 transition-all duration-700 delay-0 relative w-80 min-h-[380px] group">
+        <div class="absolute -bottom-3 -right-3 w-full h-full bg-blue-600 rounded-2xl rotate-3 group-hover:rotate-6 transition-all duration-300 z-0"></div>
+        <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">1</div>
+            <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/html1.png"></div>
+            <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/css.png"></div>
+            <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/tailwind1.png"></div>
+          </div>
+          <h3 class="text-white font-bold text-xl">January 2022 - Self Thought</h3>
+          <p class="text-zinc-400 font-bold mt-2 text-sm">Learning Front End</p>
+          <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
+          <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Focused on self-learning the fundamentals of front-end, understanding Tailwind and building my first responsive layout.</p>
+          <div class="flex gap-2 mt-auto pt-6">
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">HTML</span>
+            <span class="text-[10px] bg-green-500 text-black px-3 py-1.5 rounded-full font-bold">CSS</span>
+            <span class="text-[10px] bg-zinc-800 text-white px-3 py-1.5 rounded-full font-bold border border-zinc-700">Tailwind</span>
           </div>
         </div>
-        <div class="hidden relative w-80 min-h-[380px] group">
-          <div class="absolute -bottom-3 -right-3 w-full h-full bg-green-600 rounded-2xl rotate-2 group-hover:rotate-6 transition-all duration-300 z-0"></div>
-          <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
-            <div class="flex items-center gap-3 mb-5">
-              <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">2</div>
-              <div class="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center text-white"><img src="asset/JS.png"></div>
-              <div class="w-11 h-11 rounded-full bg-white  flex items-center justify-center text-white"><img src="asset/maria1.png"></div>
-              <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center text-white"><img src="asset/php1.png"></div>
-            </div>
-            <h3 class="text-white font-bold text-xl">May 2025- Self Thought</h3>
-            <p class="text-zinc-400 mt-2 text-sm font-bold">Learning Back End</p>
-            <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
-            <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Started learning back-end, how server works, API routes, and connecting front-end to back-end.</p>
-            <div class="flex gap-2 mt-auto pt-6">
-            <a href="https://mariadb.com" target="_blank">
-  <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold hover:bg-gray-200 hover:scale-105 cursor-pointer transition-all duration-300">
-    MariaDB
-  </span>
-</a>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="reveals opacity-0 translate-y-12 transition-all duration-700 delay-200 relative w-80 min-h-[380px] group">
+        <div class="absolute -bottom-3 -right-3 w-full h-full bg-green-600 rounded-2xl rotate-2 group-hover:rotate-6 transition-all duration-300 z-0"></div>
+        <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">2</div>
+            <div class="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center"><img src="asset/JS.png"></div>
+            <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center"><img src="asset/maria1.png"></div>
+            <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center"><img src="asset/php1.png"></div>
+          </div>
+          <h3 class="text-white font-bold text-xl">May 2025 - Self Thought</h3>
+          <p class="text-zinc-400 mt-2 text-sm font-bold">Learning Back End</p>
+          <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
+          <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Started learning back-end, how server works, API routes, and connecting front-end to back-end.</p>
+          <div class="flex gap-2 mt-auto pt-6">
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">MariaDB</span>
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">MySQL</span>
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">PHP</span>
+          </div><section id="Experience" class="w-full min-h-screen bg-[#0A0E27] p-6 md:px-20 py-20 flex flex-col items-center rounded-lg">
+  
+  <!-- HEADER - may reveal -->
+  <div class="reveals opacity-0 translate-y-12 transition-all duration-700 mb-12 text-center">
+    <h1 class="text-3xl md:text-4xl uppercase font-black text-white tracking-tighter">Experience Through Learning</h1>
+    <p class="text-2xl font-bold text-center mt-5 text-green-500">Making Website Daily</p>
+    <div class="mt-4 h-1 w-20 bg-green-500 rounded-full mx-auto"></div>
+  </div>
+
+  <!-- PARENT CONTAINER - WALA NG REVEALS DITO -->
+  <div class="w-full max-w-6xl bg-[#101827] border border-zinc-800 rounded-[32px] p-8 md:p-10 shadow-2xl">
+    <div class="flex flex-row flex-wrap gap-10 justify-center items-stretch">
+
+      <!-- CARD 1 -->
+      <div class="reveals opacity-0 translate-y-12 transition-all duration-700 delay-0 relative w-80 min-h-[380px] group">
+        <div class="absolute -bottom-3 -right-3 w-full h-full bg-blue-600 rounded-2xl rotate-3 group-hover:rotate-6 transition-all duration-300 z-0"></div>
+        <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">1</div>
+            <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/html1.png"></div>
+            <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/css.png"></div>
+            <div class="w-11 h-11 rounded-xl bg-black flex items-center justify-center"><img src="asset/tailwind1.png"></div>
+          </div>
+          <h3 class="text-white font-bold text-xl">January 2022 - Self Thought</h3>
+          <p class="text-zinc-400 font-bold mt-2 text-sm">Learning Front End</p>
+          <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
+          <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Focused on self-learning the fundamentals of front-end, understanding Tailwind and building my first responsive layout.</p>
+          <div class="flex gap-2 mt-auto pt-6">
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">HTML</span>
+            <span class="text-[10px] bg-green-500 text-black px-3 py-1.5 rounded-full font-bold">CSS</span>
+            <span class="text-[10px] bg-zinc-800 text-white px-3 py-1.5 rounded-full font-bold border border-zinc-700">Tailwind</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="reveals opacity-0 translate-y-12 transition-all duration-700 delay-200 relative w-80 min-h-[380px] group">
+        <div class="absolute -bottom-3 -right-3 w-full h-full bg-green-600 rounded-2xl rotate-2 group-hover:rotate-6 transition-all duration-300 z-0"></div>
+        <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
+          <div class="flex items-center gap-3 mb-5">
+            <div class="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-sm">2</div>
+            <div class="w-11 h-11 rounded-xl bg-zinc-800 flex items-center justify-center"><img src="asset/JS.png"></div>
+            <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center"><img src="asset/maria1.png"></div>
+            <div class="w-11 h-11 rounded-full bg-white flex items-center justify-center"><img src="asset/php1.png"></div>
+          </div>
+          <h3 class="text-white font-bold text-xl">May 2025 - Self Thought</h3>
+          <p class="text-zinc-400 mt-2 text-sm font-bold">Learning Back End</p>
+          <p class="text-zinc-400 mt-5 text-sm font-bold">My Experience</p>
+          <p class="text-zinc-300 text-[13px] leading-relaxed mt-4">Started learning back-end, how server works, API routes, and connecting front-end to back-end.</p>
+          <div class="flex gap-2 mt-auto pt-6">
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">MariaDB</span>
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">MySQL</span>
+            <span class="text-[10px] bg-white text-black px-3 py-1.5 rounded-full font-bold">PHP</span>
+          </div>
                <a href="https:// www.w3schools.com/sql/" target="_blank ">    
-               <span class="text-[10px] bg-zinc-800 text-zlassinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">mySQL</span>
+               <span class="text-[10px] bg-zinc-800 text-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">mySQL</span>
                </a>
                <span class="text-[10px] bg-zinc-800 text-zinc-300 px-3 py-1.5 rounded-full font-bold border border-zinc-700 hover:bg-white hover:text-black hover:scale-105 cursor-pointer transition-all duration-300">PHP</span>
                </a>
