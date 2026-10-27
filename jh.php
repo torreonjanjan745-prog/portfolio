@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -188,13 +189,13 @@
   </section>
 
   <!-- EXPERIENCE -->
-  <section id="Experience" class="w-full min-h-screen bg-[#0A0E27] p-6 md:px-20 py-20 flex flex-col items-center rounded-lg">
+  <section id="Experience" class=" reveals opacity-0 translate-y-12 transition-all duration-700 ease-out w-full min-h-screen bg-[#0A0E27] p-6 md:px-20 py-20 flex flex-col items-center rounded-lg">
     <div class="mb-12 text-center">
       <h1 class="text-3xl md:text-4xl uppercase font-black text-white tracking-tighter">Experience Through Learning</h1>
       <p class="text-2xl font-bold text-center mt-5 text-green-500">Making Website Daily</p>
       <div class="mt-4 h-1 w-20 bg-green-500 rounded-full mx-auto"></div>
     </div>
-    <div class="w-full max-w-6xl bg-[#101827] border border-zinc-800 rounded-[32px] p-8 md:p-10 shadow-2xl">
+    <div class=" hidden w-full max-w-6xl bg-[#101827] border border-zinc-800 rounded-[32px] p-8 md:p-10 shadow-2xl">
       <div class="flex flex-row flex-wrap gap-10 justify-center items-stretch">
         <div class="relative w-80 min-h-[380px] group">
           <div class="absolute -bottom-3 -right-3 w-full h-full bg-blue-600 rounded-2xl rotate-3 group-hover:rotate-6 transition-all duration-300 z-0"></div>
@@ -218,7 +219,7 @@
             </div>
           </div>
         </div>
-        <div class="relative w-80 min-h-[380px] group">
+        <div class="hidden relative w-80 min-h-[380px] group">
           <div class="absolute -bottom-3 -right-3 w-full h-full bg-green-600 rounded-2xl rotate-2 group-hover:rotate-6 transition-all duration-300 z-0"></div>
           <div class="relative z-10 w-full h-full min-h-[380px] rounded-2xl bg-black border border-[#27272A] p-7 flex flex-col shadow-xl group-hover:-translate-y-1 transition-all duration-300">
             <div class="flex items-center gap-3 mb-5">

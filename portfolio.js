@@ -1,4 +1,31 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const about = document.getElementById('about');
 const reveal = document.querySelectorAll('.reveal');
 
@@ -21,31 +48,6 @@ reveal.forEach(el => observer.observe(el));
 
 
 
-
-document.addEventListener('DOMContentLoaded', () => {
-const experience = document.getElementById('experience');
-const scroll = document.querySelectorAll('.scroll');
-
-if(!experience || scroll.length === 0) return;
-scroll.forEach(scroll => {
-scroll.classList.add('opacity-0', 'translate-y-10');
-scroll.classList.add('opacity-100', 'translate-y-0');
-});
-const experienceObserver = new IntersectionObserver((entries) => {
-entries.forEach(entry =>{
-if(entry.isIntersecting) {
-scroll.forEach((scroll, i) => {
-setTimeout(() => {
-scroll.classList.remove('opacity-0', 'translate-y-10');
-scroll.classList.add('opacity-100', 'translate-y-0');
-}, i * 150);
-});
-experienceObserver.unobserve(entry.target);
-}
-});
-});
-experienceObserver.observe(scroll);
-});
 
 
 
