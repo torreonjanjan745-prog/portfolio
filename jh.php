@@ -62,7 +62,7 @@
       <img id="myPic" src="asset/jh.png" class="h-[60vh] md:h-[90vh] object-contain">
     </div>
   </section>
-  <section id="About" class="w-full min-h-screen px-6 md:px-20 py-20 bg-zinc-50 rounded-lg flex flex-col md:flex-row justify-between items-center gap-12">
+  <section id="About" class="reveal opacity-0 transition-all translate-y-12 transition-all duration-700 ease-out w-full min-h-screen px-6 md:px-20 py-20 bg-zinc-50 rounded-lg flex flex-col md:flex-row justify-between items-center gap-12">
     <div class="w-full md:w-[45%] flex justify-center">
       <img src="asset/rest.png" class="w-[100%] md:w-full max-w-[400px] rounded-[30px] object-cover shadow-2xl hover:scale-105">
     </div>
@@ -153,7 +153,7 @@
 </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="group bg-zinc-900 border border-zinc-800 rounded-2xl p-6 hover:-translate-y-2 hover:bg-white transition-all duration-300 cursor-pointer">
-            <img src="asset/vue.png" class="w-12 h-12 object-contain" onerror="this.style.display='none'">
+            <img src="asset/vues.png" class="w-12 h-12 object-contain" onerror="this.style.display='none'">
             <div class="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-white font-black text-xl">V</div>
             <h3 class="text-lg font-black mt-4 text-white group-hover:text-black">Vue.js</h3>
             <p class="text-sm text-zinc-500 mt-1 group-hover:text-zinc-600">Progressive JS Framework</p>
