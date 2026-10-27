@@ -77,7 +77,7 @@
     </div>
 
     <div class="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
-      <img id="myPic" src="asset/jh.png" class="h-[60vh] md:h-[90vh] object-contain">
+      <img id="myPic" src="../asset/jh.png" class="h-[60vh] md:h-[90vh] object-contain">
     </div>
   </section>
 
